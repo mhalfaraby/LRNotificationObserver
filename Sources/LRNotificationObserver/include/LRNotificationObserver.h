@@ -91,3 +91,6 @@ typedef void(^LRNotificationObserverBlock)(NSNotification *note);
 				  action:(SEL)action;
 
 @end
+
+#import "LRNotificationObserver+Owner.h"
+#import "LRNotificationObserver+NSNotificationCenter.h"
